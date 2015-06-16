@@ -1,0 +1,34 @@
+{
+  "name": "xlsx",
+  "version": "0.8.0",
+  "author": {
+    "name": "sheetjs"
+  },
+  "description": "Experiment based on XLSX",
+  "keywords": [
+    "xlsx"
+  ],
+  "bin": {
+    "xlsx": "./bin/xlsx.njs"
+  },
+  "main": "./xlsx",
+  "dependencies": {
+    "ssf": "~0.8.1",
+    "codepage": "~1.3.6",
+    "cfb": ">=0.10.0",
+    "jszip": "2.4.0",
+    "crc-32": "",
+    "adler-32": "",
+    "commander": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/STEP-Team/xslx.git"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=0.8"
+  },
+  "readme": "# xlsx\n\nPlease consider contributing to the xlsx project\n",
+  "readmeFilename": "README.md"
+}
