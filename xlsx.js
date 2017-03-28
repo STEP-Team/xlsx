@@ -4236,6 +4236,7 @@ var parse_rs = (function parse_rs_factory() {
 		var style = [];
 		if(font.b) style.push("font-weight: bold;");
 		if(font.i) style.push("font-style: italic;");
+		if(font.u) style.push("text-decoration: underline;");
 		intro.push('<span style="' + style.join("") + '">');
 		outro.push("</span>");
 		return cp;
